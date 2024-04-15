@@ -59,7 +59,7 @@
             /* max-width: 1200px; */
             max-width: 90%;
             margin: 0 auto;
-            padding: 20px;
+            padding: 5px;
         }
 
         .content .title {
@@ -70,13 +70,19 @@
         }
 
         .content img {
-            max-width: 90%;
+            max-width: 60%;
             /* Ajusta la imagen a un 50% de su tamaño */
             height: auto;
             display: block;
             /* Hace que la imagen sea un bloque */
             margin: 0 auto;
             /* Centra la imagen horizontalmente */
+        }
+
+        @media only screen and (max-width: 600px) {
+            .content img {
+            max-width: 100%; /* Amplía el ancho de la imagen principal en dispositivos móviles */
+            }
         }
 
         footer {
