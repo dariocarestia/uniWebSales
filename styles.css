@@ -20,7 +20,7 @@ html {
 
 .banner {
     background-color: #333;
-    padding: 20px 20px; /* Aplica padding vertical pero no horizontal */
+    padding: 10px 10px; /* Aplica padding vertical pero no horizontal */
     /*margin-top: 30px;  Ajusta los 20px al espacio deseado */
 }
 
@@ -32,7 +32,7 @@ html {
     /* max-width: 1200px; */
     max-width: 90%; /* Controla el ancho máximo del contenido dentro del banner */
     width: 100%;
-    padding: 0 10px; /* Añade padding horizontal dentro del contenedor del banner */
+    padding: 0 5px; /* Añade padding horizontal dentro del contenedor del banner */
 }
 
 .banner img {
