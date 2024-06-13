@@ -20,7 +20,7 @@ html {
 
 .banner {
     background-color: #333;
-    padding: 10px 10px; /* Aplica padding vertical pero no horizontal */
+    padding: 10px 0px; /* Aplica padding vertical pero no horizontal */
     /*margin-top: 30px;  Ajusta los 20px al espacio deseado */
 }
 
@@ -44,7 +44,7 @@ html {
 .banner a {
     color: #fff;
     background-color: #007bff;
-    padding: 5px 10px;
+    padding: 5px 5px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
